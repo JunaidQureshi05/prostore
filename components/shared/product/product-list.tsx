@@ -7,9 +7,8 @@ const ProductList = ({
 }: {
   data: any;
   title?: string;
-  limit: number;
+  limit?: number;
 }) => {
-  console.log(">>>>>>>", data);
   return (
     <div className="my-10">
       <h2 className="h2-bold mb-4">{title}</h2>
